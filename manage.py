@@ -1,4 +1,4 @@
-"""
+
 Script for managing the CONTRIBUTOR.md file.
 What this script does?
 - Remove trailing whitespaces before '####'
@@ -9,7 +9,7 @@ Running the script -
 python3 manage.py
 
 PS: DO NOT USE PYTHON 2
-"""
+
 import re
 
 def format_contributor(contrib):
